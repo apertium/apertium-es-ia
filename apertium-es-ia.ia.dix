@@ -37,6 +37,48 @@
         </p>
       </e>
     </pardef>
+    <pardef n="catto__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>s</l>
+          <r><s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="can__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>es</l>
+          <r><s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="roc__n">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="n"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>hes</l>
+          <r><s n="n"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="canta/r__vblex">
       <e>
         <p>
@@ -157,6 +199,11 @@
 
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
     <e lm="non"><i>non</i><par n="ora__adv"/></e>
+
+    <e lm="catto"><i>catto</i><par n="catto__n"/></e>
+    <e lm="can"><i>can</i><par n="can__n"/></e>
+    <e lm="roc"><i>roc</i><par n="roc__n"/></e>
+    <e lm="aqua"><i>aqua</i><par n="catto__n"/></e>
 
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
     <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
