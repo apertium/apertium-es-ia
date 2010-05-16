@@ -16,6 +16,9 @@
     <sdef n="preadv"/>
     <sdef n="pr"/>
     <sdef n="cnjcoo"/>
+    <sdef n="prn"/>
+    <sdef n="tn"/>
+    <sdef n="nt"/>
   </sdefs>
   <section id="main" type="standard">
     <e><p><l>adjetivo<s n="adj"/></l><r>adjective<s n="adj"/></r></p></e>
@@ -23,6 +26,12 @@
     <e><p><l>más<s n="preadv"/></l><r>plus<s n="preadv"/></r></p></e>
 
     <e><p><l>y<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+
+    <e><p><l>en<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+    <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+    <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+
+    <e><p><l>se<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
 
     <e><p><l>ahora<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
@@ -35,5 +44,12 @@
     <e><p><l>comer<s n="vblex"/></l><r>mangiar<s n="vblex"/></r></p></e>
     <e><p><l>cantar<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
     <e><p><l>amar<s n="vblex"/></l><r>amar<s n="vblex"/></r></p></e>
+    <e><p><l>demandar<s n="vblex"/></l><r>demandar<s n="vblex"/></r></p></e>
+    <e><p><l>renunciar<s n="vblex"/></l><r>renunciar<s n="vblex"/></r></p></e>
+    <e><p><l>contemplar<s n="vblex"/></l><r>contemplar<s n="vblex"/></r></p></e>
+    <e><p><l>morir<s n="vblex"/></l><r>morir<s n="vblex"/></r></p></e>
+    <e><p><l>ver<s n="vblex"/></l><r>vider<s n="vblex"/></r></p></e>
+    <e><p><l>oír<s n="vblex"/></l><r>audir<s n="vblex"/></r></p></e>
+    <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
   </section>
 </dictionary>

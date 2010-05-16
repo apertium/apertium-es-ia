@@ -25,6 +25,8 @@
     <sdef n="det"/>
     <sdef n="dem"/>
     <sdef n="def"/>
+    <sdef n="pro"/>
+    <sdef n="ref"/>
     <sdef n="ind"/>
     <sdef n="sup"/>
     <sdef n="pr"/>
@@ -32,6 +34,9 @@
     <sdef n="prn"/>
     <sdef n="tn"/>
     <sdef n="nt"/>
+    <sdef n="p1"/>
+    <sdef n="p2"/>
+    <sdef n="p3"/>
   </sdefs>
   <pardefs>
     <pardef n="in__pr">
@@ -101,6 +106,14 @@
         <p>
           <l></l>
           <r><s n="det"/><s n="dem"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="se__prn">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -311,7 +324,11 @@
     <e lm="adjective"><i>adjective</i><par n="adjective__adj"/></e>
     <e lm="excellente"><i>excellent</i><par n="excellent/e__adj"/></e>
 
+    <e lm="al"><p><l>al</l><r>a<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
+    <e lm="del"><p><l>del</l><r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="sp"/></r></p></e>
     <e lm="in"><i>in</i><par n="in__pr"/></e>
+    <e lm="a"><i>a</i><par n="in__pr"/></e>
+    <e lm="de"><i>de</i><par n="in__pr"/></e>
 
     <e lm="plus"><i>plus</i><par n="plus__preadv"/></e>
 
@@ -322,6 +339,7 @@
 
     <e lm="iste"><i>ist</i><par n="ist/e__prn"/></e>
     <e lm="ille"><i>ill</i><par n="ist/e__prn"/></e>
+    <e lm="se"><i>se</i><par n="se__prn"/></e>
 
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
     <e lm="non"><i>non</i><par n="ora__adv"/></e>
@@ -334,7 +352,14 @@
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
     <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
     <e lm="amar"><i>ama</i><par n="canta/r__vblex"/></e>
+    <e lm="renunciar"><i>renuncia</i><par n="canta/r__vblex"/></e>
+    <e lm="contemplar"><i>contempla</i><par n="canta/r__vblex"/></e>
+    <e lm="demandar"><i>demanda</i><par n="canta/r__vblex"/></e>
     <e lm="creder"><i>cred</i><par n="cred/er__vblex"/></e>
+    <e lm="vider"><i>vid</i><par n="cred/er__vblex"/></e>
     <e lm="partir"><i>parti</i><par n="parti/r__vblex"/></e>
+    <e lm="morir"><i>mori</i><par n="parti/r__vblex"/></e>
+    <e lm="audir"><i>audi</i><par n="parti/r__vblex"/></e>
+    <e lm="dormir"><i>dormi</i><par n="parti/r__vblex"/></e>
   </section>
 </dictionary>
