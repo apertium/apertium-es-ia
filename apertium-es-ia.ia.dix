@@ -1,0 +1,154 @@
+<dictionary>
+  <alphabet>ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
+  <sdefs>
+    <sdef n="n"/>
+    <sdef n="adj"/>
+    <sdef n="adv"/>
+    <sdef n="np"/>
+    <sdef n="ant"/>
+    <sdef n="top"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="sp"/>
+    <sdef n="mf"/>
+    <sdef n="vblex"/>
+    <sdef n="pres"/>
+    <sdef n="past"/>
+    <sdef n="fut"/>
+    <sdef n="cni"/>
+    <sdef n="inf"/>
+    <sdef n="pp"/>
+    <sdef n="pprs"/>
+  </sdefs>
+  <pardefs>
+    <pardef n="adjective__adj">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="canta/r__vblex">
+      <e>
+        <p>
+          <l>r</l>
+          <r>r<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>r<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>va</l>
+          <r>r<s n="vblex"/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rea</l>
+          <r>r<s n="vblex"/><s n="fut"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nte</l>
+          <r>r<s n="vblex"/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>te</l>
+          <r>r<s n="vblex"/><s n="pp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="cred/er__vblex">
+      <e>
+        <p>
+          <l>er</l>
+          <r>er<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>e</l>
+          <r>er<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>eva</l>
+          <r>r<s n="vblex"/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>erea</l>
+          <r>er<s n="vblex"/><s n="fut"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ente</l>
+          <r>er<s n="vblex"/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ite</l>
+          <r>er<s n="vblex"/><s n="pp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="parti/r__vblex">
+      <e>
+        <p>
+          <l>r</l>
+          <r>r<s n="vblex"/><s n="inf"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l></l>
+          <r>r<s n="vblex"/><s n="pres"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>va</l>
+          <r>r<s n="vblex"/><s n="past"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>rea</l>
+          <r>r<s n="vblex"/><s n="fut"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ente</l>
+          <r>r<s n="vblex"/><s n="pprs"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>te</l>
+          <r>r<s n="vblex"/><s n="pp"/></r>
+        </p>
+      </e>
+    </pardef>
+  </pardefs>
+  <section id="main" type="standard">
+    <e lm="adjective"><i>adjective</i><par n="adjective__adj"/></e>
+
+    <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
+    <e lm="creder"><i>cred</i><par n="cred/er__vblex"/></e>
+    <e lm="partir"><i>parti</i><par n="parti/r__vblex"/></e>
+  </section>
+</dictionary>
