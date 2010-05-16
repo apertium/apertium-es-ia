@@ -19,13 +19,75 @@
     <sdef n="inf"/>
     <sdef n="pp"/>
     <sdef n="pprs"/>
+    <sdef n="cnjcoo"/>
+    <sdef n="det"/>
+    <sdef n="dem"/>
+    <sdef n="def"/>
+    <sdef n="ind"/>
+    <sdef n="sup"/>
+    <sdef n="pr"/>
+    <sdef n="preadv"/>
   </sdefs>
   <pardefs>
+    <pardef n="in__pr">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="pr"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="plus__preadv">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="preadv"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="adjective__adj">
       <e>
         <p>
           <l></l>
           <r><s n="adj"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="excellent/e__adj">
+      <e>
+        <p>
+          <l>e</l>
+          <r>e<s n="adj"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>issime</l>
+          <r>e<s n="adj"/><s n="sup"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="e__cnjcoo">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="cnjcoo"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="le__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="def"/><s n="sp"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="un__det">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="ind"/><s n="sp"/></r>
         </p>
       </e>
     </pardef>
@@ -196,6 +258,12 @@
   </pardefs>
   <section id="main" type="standard">
     <e lm="adjective"><i>adjective</i><par n="adjective__adj"/></e>
+    <e lm="excellente"><i>excellent</i><par n="excellent/e__adj"/></e>
+
+    <e lm="in"><i>in</i><par n="in__pr"/></e>
+
+    <e lm="le"><i>le</i><par n="le__det"/></e>
+    <e lm="un"><i>un</i><par n="un__det"/></e>
 
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
     <e lm="non"><i>non</i><par n="ora__adv"/></e>
