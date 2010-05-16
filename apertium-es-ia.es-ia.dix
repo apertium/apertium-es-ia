@@ -1,0 +1,24 @@
+<dictionary>
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="vblex"/>
+    <sdef n="n"/>
+    <sdef n="f"/>
+    <sdef n="m"/>
+    <sdef n="mf"/>
+    <sdef n="GD"/>
+    <sdef n="ND"/>
+    <sdef n="sg"/>
+    <sdef n="pl"/>
+    <sdef n="sp"/>
+    <sdef n="adj"/>
+    <sdef n="adv"/>
+  </sdefs>
+  <section id="main" type="standard">
+    <e><p><l>adjetivo<s n="adj"/></l><r>adjective<s n="adj"/></r></p></e>
+    <e><p><l>ahora<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
+    <e><p><l>no<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
+    <e><p><l>comer<s n="vblex"/></l><r>mangiar<s n="vblex"/></r></p></e>
+    <e><p><l>cantar<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
+  </section>
+</dictionary>

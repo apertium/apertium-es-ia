@@ -29,6 +29,14 @@
         </p>
       </e>
     </pardef>
+    <pardef n="ora__adv">
+      <e>
+        <p>
+          <l></l>
+          <r><s n="adv"/></r>
+        </p>
+      </e>
+    </pardef>
     <pardef n="canta/r__vblex">
       <e>
         <p>
@@ -147,7 +155,11 @@
   <section id="main" type="standard">
     <e lm="adjective"><i>adjective</i><par n="adjective__adj"/></e>
 
+    <e lm="ora"><i>ora</i><par n="ora__adv"/></e>
+    <e lm="non"><i>non</i><par n="ora__adv"/></e>
+
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
+    <e lm="mangiar"><i>mangia</i><par n="canta/r__vblex"/></e>
     <e lm="creder"><i>cred</i><par n="cred/er__vblex"/></e>
     <e lm="partir"><i>parti</i><par n="parti/r__vblex"/></e>
   </section>
