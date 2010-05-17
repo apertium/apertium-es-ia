@@ -52,6 +52,10 @@
     <e r="RL"><p><l>perro<s n="n"/><s n="GD"/></l><r>can<s n="n"/></r></p></e>
     <e r="LR"><p><l>perro<s n="n"/></l><r>can<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/><s n="f"/></l><r>aqua<s n="n"/></r></p></e>
+    <e><p><l>declaración<s n="n"/><s n="f"/></l><r>declaration<s n="n"/></r></p></e>
+    <e><p><l>derecho<s n="n"/><s n="m"/></l><r>derecto<s n="n"/></r></p></e>
+    <e><p><l>dignidad<s n="n"/><s n="f"/></l><r>dignitate<s n="n"/></r></p></e>
+    <e><p><l>ser<b/>humano<s n="n"/><s n="m"/></l><r>esser<g><b/>human</g><s n="n"/></r></p></e>
 
     <e><p><l>ser<s n="vbser"/></l><r>esser<s n="vbser"/></r></p></e>
     <e><p><l>comer<s n="vblex"/></l><r>mangiar<s n="vblex"/></r></p></e>

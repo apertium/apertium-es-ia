@@ -618,6 +618,10 @@
     <e lm="can"><i>can</i><par n="can__n"/></e>
     <e lm="roc"><i>roc</i><par n="roc__n"/></e>
     <e lm="aqua"><i>aqua</i><par n="catto__n"/></e>
+    <e lm="declaration"><i>declaration</i><par n="catto__n"/></e>
+    <e lm="derecto"><i>derecto</i><par n="catto__n"/></e>
+    <e lm="dignitate"><i>dignitate</i><par n="catto__n"/></e>
+    <e lm="esser human"><i>esser</i><par n="can__n"/><p><l><b/>human</l><r><g><b/>human</g></r></p></e>
 
     <e lm="esser"><i></i><par n="/esser__vbser"/></e>
     <e lm="cantar"><i>canta</i><par n="canta/r__vblex"/></e>
