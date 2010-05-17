@@ -45,6 +45,8 @@
     <sdef n="p3"/>
     <sdef n="sent"/>
     <sdef n="cm"/>
+    <sdef n="subj"/>
+    <sdef n="obj"/>
   </sdefs>
   <pardefs>
     <pardef n="in__pr">
@@ -108,6 +110,18 @@
           <r><s n="det"/><s n="def"/><s n="sp"/></r>
         </p>
       </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="def"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e r="RL">
+        <p>
+          <l></l>
+          <r><s n="det"/><s n="def"/><s n="pl"/></r>
+        </p>
+      </e>
     </pardef>
     <pardef n="un__det">
       <e>
@@ -168,6 +182,128 @@
         <p>
           <l>os</l>
           <r>e<s n="prn"/><s n="tn"/><s n="nt"/><s n="pl"/></r>
+        </p>
+      </e>
+    </pardef>
+    <pardef n="prpers__prn">
+      <e>
+        <p>
+          <l>io</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>tu</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>ille</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>illa</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>illo</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nos</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vos</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>illes</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>illas</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>illos</l>
+          <r>prpers<s n="prn"/><s n="subj"/><s n="p3"/><s n="nt"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>me</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>te</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>le</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>la</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>lo</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="sg"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>nos</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p1"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>vos</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p2"/><s n="mf"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>les</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="m"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>las</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="f"/><s n="pl"/></r>
+        </p>
+      </e>
+      <e>
+        <p>
+          <l>los</l>
+          <r>prpers<s n="prn"/><s n="obj"/><s n="p3"/><s n="nt"/><s n="pl"/></r>
         </p>
       </e>
     </pardef>
@@ -470,10 +606,9 @@
     <e lm="le"><i>le</i><par n="le__det"/></e>
     <e lm="un"><i>un</i><par n="un__det"/></e>
     <e lm="iste"><i>iste</i><par n="iste__det"/></e>
-    <e lm="ille"><i>ille</i><par n="iste__det"/></e>
 
     <e lm="iste"><i>ist</i><par n="ist/e__prn"/></e>
-    <e lm="ille"><i>ill</i><par n="ist/e__prn"/></e>
+    <e lm="prpers"><i></i><par n="prpers__prn"/></e>
     <e lm="se"><i>se</i><par n="se__prn"/></e>
 
     <e lm="ora"><i>ora</i><par n="ora__adv"/></e>

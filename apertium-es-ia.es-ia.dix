@@ -13,6 +13,9 @@
     <sdef n="sg"/>
     <sdef n="pl"/>
     <sdef n="sp"/>
+    <sdef n="det"/>
+    <sdef n="def"/>
+    <sdef n="ind"/>
     <sdef n="adj"/>
     <sdef n="adv"/>
     <sdef n="preadv"/>
@@ -39,6 +42,8 @@
     <e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
 
     <e><p><l>se<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
+
+    <e r="LR"><p><l>el<s n="det"/><s n="def"/></l><r>le<s n="det"/><s n="det"/><s n="sp"/></r></p></e>
 
     <e><p><l>ahora<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
     <e><p><l>no<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
