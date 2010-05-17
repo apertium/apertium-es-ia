@@ -2,6 +2,8 @@
   <alphabet></alphabet>
   <sdefs>
     <sdef n="vblex"/>
+    <sdef n="vbser"/>
+    <sdef n="vbhaver"/>
     <sdef n="n"/>
     <sdef n="f"/>
     <sdef n="m"/>
@@ -21,6 +23,8 @@
     <sdef n="prn"/>
     <sdef n="tn"/>
     <sdef n="nt"/>
+    <sdef n="sent"/>
+    <sdef n="cm"/>
   </sdefs>
   <section id="main" type="standard">
     <e><p><l>adjetivo<s n="adj"/></l><r>adjective<s n="adj"/></r></p></e>
@@ -44,6 +48,7 @@
     <e r="LR"><p><l>perro<s n="n"/></l><r>can<s n="n"/></r></p></e>
     <e><p><l>agua<s n="n"/><s n="f"/></l><r>aqua<s n="n"/></r></p></e>
 
+    <e><p><l>ser<s n="vbser"/></l><r>esser<s n="vbser"/></r></p></e>
     <e><p><l>comer<s n="vblex"/></l><r>mangiar<s n="vblex"/></r></p></e>
     <e><p><l>cantar<s n="vblex"/></l><r>cantar<s n="vblex"/></r></p></e>
     <e><p><l>amar<s n="vblex"/></l><r>amar<s n="vblex"/></r></p></e>
@@ -54,5 +59,11 @@
     <e><p><l>ver<s n="vblex"/></l><r>vider<s n="vblex"/></r></p></e>
     <e><p><l>oír<s n="vblex"/></l><r>audir<s n="vblex"/></r></p></e>
     <e><p><l>dormir<s n="vblex"/></l><r>dormir<s n="vblex"/></r></p></e>
+  </section>
+  <section id="punctuation" type="standard">
+    <e><i>.<s n="sent"/></i></e>
+    <e><i>:<s n="sent"/></i></e>
+    <e><i>;<s n="sent"/></i></e>
+    <e><i>,<s n="cm"/></i></e>
   </section>
 </dictionary>
