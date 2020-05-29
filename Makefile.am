@@ -1,4 +1,3 @@
-VERSION=0.0.1
 LANG1=es
 LANG2=ia
 PREFIX1=$(LANG1)-$(LANG2)
@@ -8,10 +7,11 @@ BILNAME=apertium-es-ia.es-ia.dix
 
 TARGETS_COMMON = $(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
      $(PREFIX1).autopgen.bin \
-     $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-     modes $(PREFIX1).mode 
+     $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin
 
 TARGETS = $(TARGETS_COMMON)
+
+@ap_include@
 
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
@@ -58,25 +58,13 @@ apertium_es_ia_DATA=$(PREFIX1).automorf.bin \
 		    $(PREFIX1).autopgen.bin \
 		    $(PREFIX1).prob \
 		    $(PREFIX1).t1x.bin $(PREFIX1).t2x.bin $(PREFIX1).t3x.bin \
-		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(BASENAME).$(PREFIX1).t3x \
-		    $(PREFIX1).mode 
+		    $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(BASENAME).$(PREFIX1).t3x
 
-apertium_es_iadir=$(PREFIX1)/share/apertium/apertium-$(PREFIX1)/
-apertium_es_iamodesdir=$(PREFIX1)/share/apertium/modes/
+apertium_es_iadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 
-$(PREFIX1).mode: modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
-modes: modes.xml
-	apertium-gen-modes modes.xml
-
-install-data-local:
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	$(INSTALL_DATA) $(PREFIX1).mode $(apertium_es_iamodesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(apertium_es_iadir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(apertium_es_iadir)
+install-data-local: install-modes
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_es_iadir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t3x $(DESTDIR)$(apertium_es_iadir)
 
 
-CLEANFILES = -rf $(TARGETS) modes 
-
+CLEANFILES = -rf $(TARGETS)
